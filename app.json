@@ -1,0 +1,58 @@
+{
+    "name": "Url Shortner",
+    "description": "I will short links",
+    "repository": "https://github.com/SuryaPrabhas1245/URL-Shortner-Bot-V2",
+    "website": "https://github.com/SuryaPrabhas1245/URL-Shortner-Bot-V2",
+    "env": {
+        "API_HASH": {
+            "description": "Your API Hash from my.telegram.org",
+            "required": "True"
+        },
+        "API_ID": {
+            "description": "Your API ID from my.telegram.org",
+            "required": "True"
+        },
+        "BOT_TOKEN": {
+            "description": "Your bot token from @BotFather",
+            "required": "True"
+        },
+        "DATABASE": {
+            "description": "Your MongoDB URL",
+            "required": "True"
+        },
+        "BOT_OWNER": {
+            "description": "Bot Owner ID",
+            "required": "True"
+        },
+        "BITLY_API": {
+            "description": "Bit.ly api from dev.bitly.com",
+            "required": "True"
+        },
+        "CUTTLY_API": {
+            "description": "Cutt.ly api from cutt.ly/cuttly-api",
+            "required": "True"
+        },
+        "SHORTCM_API": {
+            "description": "Short.cm api from developers.short.io",
+            "required": "True"
+        },
+        "GPLINKS_API": {
+            "description": "GPLinks.in api from gplinks.in/api",
+            "required": "True"
+        },
+        "OWLY_API": {
+            "description": "Ow.ly api",
+            "required": "True"
+        },
+        "POST_API": {
+            "description": "Po.st api",
+            "required": "True"
+        }
+    },
+    "formation": {
+        "worker": {
+            "quantity": 1,
+            "size": "free"
+        }
+    }
+}
