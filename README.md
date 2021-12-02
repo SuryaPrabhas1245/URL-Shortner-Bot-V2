@@ -24,8 +24,3 @@ An advanced url shortner telegram bot
 
 ---
 
-## Old Version
-
-- [URL-Shortner-Bot](https://github.com/FayasNoushad/URL-Shortner-Bot)
-
----
