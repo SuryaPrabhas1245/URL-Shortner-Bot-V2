@@ -28,10 +28,6 @@
             "description": "Bit.ly api from dev.bitly.com",
             "required": "False"
         },
-        "CUTTLY_API": {
-            "description": "Cutt.ly api from cutt.ly/cuttly-api",
-            "required": "False"
-        },
         "SHORTCM_API": {
             "description": "Short.cm api from developers.short.io",
             "required": "False"
@@ -39,15 +35,8 @@
         "GPLINKS_API": {
             "description": "GPLinks.in api from gplinks.in/api",
             "required": "False"
-        },
-        "OWLY_API": {
-            "description": "Ow.ly api",
-            "required": "False"
-        },
-        "POST_API": {
-            "description": "Po.st api",
-            "required": "False"
         }
+        
     },
     "formation": {
         "worker": {
